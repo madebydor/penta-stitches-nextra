@@ -1,0 +1,75 @@
+# Button
+
+import { Button } from '../../src/components/Button'
+import { Stack } from '../../src/components/Stack'
+import { Code } from '../../src/components/Code'
+
+Buttons allow users to perform actions within a surface. They can be used alone for immediate action, or as a trigger for another component, like Dropdown or Popover.
+
+```jsx
+import { Button } from '../../src/components/Button'
+```
+
+## Props
+
+### `size`
+
+<div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
+  <Code
+    code={`<Stack>
+  <Button size="sm">Button</Button>
+  <Button size="base">Button</Button>
+  <Button size="lg">Button</Button>
+</Stack>`}
+  />
+</div>
+
+### `color`
+
+<div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
+  <Code
+    code={`<Stack>
+  <Button color="green">Button</Button>
+  <Button color="pink">Button</Button>
+  <Button color="blue">Button</Button>
+  <Button color="orange">Button</Button>
+  <Button color="pro">Button</Button>
+  <Button color="red">Button</Button>
+</Stack>`}
+  />
+</div>
+
+### `ghost`
+
+<div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
+  <Code
+    code={`<Stack>
+  <Button ghost>Button</Button>
+  <Button color="blue" ghost>Button</Button>
+  <Button color="gray" ghost>Button</Button>
+  <Button color="pink" ghost>Button</Button>
+  <Button color="red" ghost>Button</Button>
+</Stack>`}
+  />
+</div>
+
+## Mixed variants
+
+<div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
+  <Code
+    code={`<Stack>
+  <Button size="sm" color="pink">Button</Button>
+  <Button size="sm" color="orange" ghost>Button</Button>
+  <Button color="green">Submit</Button>
+  <Button color="blue">Submit</Button>
+  <Button color="red" size="lg">Button</Button>
+  <Button color="orange" size="lg" ghost>Button</Button>
+  <Button color="gray" size="base">Button</Button>
+  <Button color="pink" size="lg" >Button</Button>
+  <Button color="red" size="sm" >Button</Button>
+  <Button color="pro" size="lg">Button</Button>
+  <Button color="blue" size="base" ghost>Button</Button>
+  <Button color="gray" size="base" ghost>Button</Button>
+</Stack>`}
+  />
+</div>
