@@ -10,11 +10,7 @@ export const Button = styled('button', {
   textAlign: 'center',
   cursor: 'pointer',
   userSelect: 'none',
-
-  '&:active': {
-    transform: 'scale(0.96)',
-    transition: '$fast',
-  },
+  transition: '$fast',
 
   variants: {
     size: {
@@ -28,7 +24,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$green9',
         $$colorHover: '$colors$green10',
         $$colorActive: '$colors$green11',
-        $$colorRing: '$colors$green6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
@@ -37,7 +32,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$blue9',
         $$colorHover: '$colors$blue10',
         $$colorActive: '$colors$blue11',
-        $$colorRing: '$colors$blue6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
@@ -46,7 +40,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$orange9',
         $$colorHover: '$colors$orange10',
         $$colorActive: '$colors$orange11',
-        $$colorRing: '$colors$orange6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
@@ -55,7 +48,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$teal9',
         $$colorHover: '$colors$teal10',
         $$colorActive: '$colors$teal11',
-        $$colorRing: '$colors$teal6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
@@ -64,7 +56,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$red9',
         $$colorHover: '$colors$red10',
         $$colorActive: '$colors$red11',
-        $$colorRing: '$colors$red6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
@@ -73,7 +64,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$pink9',
         $$colorHover: '$colors$pink10',
         $$colorActive: '$colors$pink11',
-        $$colorRing: '$colors$pink6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
@@ -82,7 +72,6 @@ export const Button = styled('button', {
         $$colorDark: '$colors$gray11',
         $$colorHover: '$colors$gray11',
         $$colorActive: '$colors$gray12',
-        $$colorRing: '$colors$gray6',
         color: '$$colorLight',
         backgroundColor: '$$colorDark',
       },
