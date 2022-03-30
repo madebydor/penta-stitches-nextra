@@ -76,9 +76,6 @@ export const Button = styled('button', {
         backgroundColor: '$$colorDark',
       },
     },
-    ghost: {
-      true: { borderColor: '$$colorDark' },
-    },
   },
 
   compoundVariants: [
