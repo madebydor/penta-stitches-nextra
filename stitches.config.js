@@ -66,5 +66,11 @@ export const { styled, css } = createStitches({
     transitions: {
       fast: 'all 0.1s ease-out',
     },
+
+    media: {
+      sm: '(min-width: 640px)',
+      lg: '(min-width: 768px)',
+      xl: '(min-width: 1024px)',
+    },
   },
 })
