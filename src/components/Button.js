@@ -76,19 +76,9 @@ export const Button = styled('button', {
         backgroundColor: '$$colorDark',
       },
     },
-  },
 
-  compoundVariants: [
-    {
-      ghost: false,
-      css: {
-        '&:hover': { backgroundColor: '$$colorHover' },
-        '&:active': { backgroundColor: '$$colorActive' },
-      },
-    },
-    {
-      ghost: true,
-      css: {
+    ghost: {
+      true: {
         backgroundColor: 'transparent',
         borderColor: '$$colorDark',
         color: '$$colorDark',
@@ -103,8 +93,12 @@ export const Button = styled('button', {
           borderColor: '$$colorActive',
         },
       },
+      false: {
+        '&:hover': { backgroundColor: '$$colorHover' },
+        '&:active': { backgroundColor: '$$colorActive' },
+      },
     },
-  ],
+  },
 
   defaultVariants: {
     size: 'base',
